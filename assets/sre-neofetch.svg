@@ -1,0 +1,96 @@
+<svg width="980" height="440" viewBox="0 0 980 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Babim Negev SRE Platform Engineer neofetch terminal card</title>
+  <desc id="desc">A dark terminal styled neofetch card showing SRE and platform engineering focus areas.</desc>
+  <defs>
+    <linearGradient id="terminalBorder" x1="0" y1="0" x2="980" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22c55e"/>
+      <stop offset="0.5" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(490 220) rotate(90) scale(260 520)">
+      <stop stop-color="#22c55e" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.133 0 0 0 0 0.773 0 0 0 0 0.369 0 0 0 0.7 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+    <style>
+      .mono { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+      .label { fill: #22c55e; font-weight: 700; }
+      .value { fill: #d1fae5; }
+      .muted { fill: #64748b; }
+      .accent { fill: #38bdf8; }
+      .prompt { fill: #2dd4bf; }
+      .cursor {
+        animation: blink 1.05s steps(1) infinite;
+      }
+      .scanline {
+        animation: scan 5s linear infinite;
+      }
+      @keyframes blink {
+        0%, 46% { opacity: 1; }
+        47%, 100% { opacity: 0; }
+      }
+      @keyframes scan {
+        0% { transform: translateY(-80px); opacity: 0; }
+        12% { opacity: 0.28; }
+        82% { opacity: 0.12; }
+        100% { transform: translateY(430px); opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect width="980" height="440" rx="28" fill="#020617"/>
+  <rect width="980" height="440" rx="28" fill="url(#glow)"/>
+  <rect x="13" y="13" width="954" height="414" rx="22" stroke="url(#terminalBorder)" stroke-width="2" opacity="0.9"/>
+
+  <g opacity="0.28">
+    <path d="M54 126H924" stroke="#0f766e" stroke-width="1"/>
+    <path d="M54 182H924" stroke="#0f766e" stroke-width="1"/>
+    <path d="M54 238H924" stroke="#0f766e" stroke-width="1"/>
+    <path d="M54 294H924" stroke="#0f766e" stroke-width="1"/>
+    <path d="M54 350H924" stroke="#0f766e" stroke-width="1"/>
+  </g>
+  <rect class="scanline" x="22" y="0" width="936" height="74" fill="#22c55e" opacity="0.13"/>
+
+  <g transform="translate(42 36)">
+    <circle cx="16" cy="16" r="7" fill="#ef4444"/>
+    <circle cx="40" cy="16" r="7" fill="#f59e0b"/>
+    <circle cx="64" cy="16" r="7" fill="#22c55e"/>
+    <text x="114" y="22" class="mono muted" font-size="16">~/platform/reliability --profile babim</text>
+  </g>
+
+  <g transform="translate(66 112)" filter="url(#softGlow)">
+    <text class="mono accent" font-size="17" xml:space="preserve">
+      <tspan x="0" y="0">          .-.</tspan>
+      <tspan x="0" y="28">     .--./ / \.--.</tspan>
+      <tspan x="0" y="56">   /`   \_\_/_   `\</tspan>
+      <tspan x="0" y="84">  /  k8s  |  obs  \</tspan>
+      <tspan x="0" y="112">  |  svc--+--slo  |</tspan>
+      <tspan x="0" y="140">  \  ci   |  iac  /</tspan>
+      <tspan x="0" y="168">   `\__./---\.__/`</tspan>
+      <tspan x="0" y="196">       /_/ \_\</tspan>
+      <tspan x="0" y="224">    production: boring</tspan>
+    </text>
+  </g>
+
+  <g class="mono" transform="translate(420 104)">
+    <text x="0" y="0" font-size="24" font-weight="800" fill="#f8fafc">babim@platform</text>
+    <text x="0" y="34" font-size="16" class="muted">-------------------------------</text>
+
+    <text x="0" y="74" font-size="18"><tspan class="label">Role</tspan><tspan class="muted">:</tspan><tspan class="value"> SRE / Platform Engineer</tspan></text>
+    <text x="0" y="110" font-size="18"><tspan class="label">OS</tspan><tspan class="muted">:</tspan><tspan class="value"> Linux, Kubernetes, Cloud</tspan></text>
+    <text x="0" y="146" font-size="18"><tspan class="label">Shell</tspan><tspan class="muted">:</tspan><tspan class="value"> Bash, Python, Automation</tspan></text>
+    <text x="0" y="182" font-size="18"><tspan class="label">Monitoring</tspan><tspan class="muted">:</tspan><tspan class="value"> Prometheus, Grafana, Logs, Traces</tspan></text>
+    <text x="0" y="218" font-size="18"><tspan class="label">IaC</tspan><tspan class="muted">:</tspan><tspan class="value"> Terraform, Ansible, GitOps</tspan></text>
+    <text x="0" y="254" font-size="18"><tspan class="label">Status</tspan><tspan class="muted">:</tspan><tspan class="value"> systems stable, alerts low</tspan></text>
+
+    <g transform="translate(0 290)">
+      <text x="0" y="0" font-size="17" class="prompt">$ kubectl get reliability</text>
+      <rect x="262" y="-17" width="11" height="21" rx="2" fill="#22c55e" class="cursor"/>
+      <text x="0" y="36" font-size="16" class="value">platform/production   Ready   observable   automated</text>
+    </g>
+  </g>
+</svg>

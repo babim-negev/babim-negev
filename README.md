@@ -1,22 +1,20 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,50:0f766e,100:22c55e&text=Babim%20Negev&fontColor=e5e7eb&fontSize=54&fontAlignY=38&desc=SRE%20%2F%20Platform%20Engineer&descAlignY=58&animation=fadeIn" alt="Babim Negev - SRE / Platform Engineer" />
+  <img src="assets/sre-neofetch.svg" alt="Babim Negev - SRE / Platform Engineer neofetch terminal card" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=22C55E&center=true&vCenter=true&width=720&lines=SRE+%2F+Platform+Engineer;Kubernetes+%7C+Linux+%7C+Observability;Automation+%7C+CI%2FCD+%7C+Reliability;Keeping+systems+boring%2C+stable%2C+and+fast" alt="Typing animation: SRE Platform Engineer" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=850&color=22C55E&center=true&vCenter=true&width=760&lines=%24+kubectl+get+reliability;%24+terraform+plan+--less-drama;%24+promql+up+%3D%3D+1;%24+alerts+--only-actionable" alt="Typing animation with SRE terminal commands" />
 </p>
 
 ```bash
-$ whoami
-Babim - SRE / Platform Engineer
-
-$ focus --daily
-reliability | platform automation | observability | incident response
+$ kubectl get reliability
+NAME                  STATUS   SIGNALS      AUTOMATION
+platform/production   Ready    observable   enabled
 ```
 
 ## About
 
-I build and operate reliable platforms, automate operational work, and make production systems easier to understand, recover, and scale.
+I build platforms that make production boring: reliable infrastructure, useful observability, and automation that removes repetitive operational work.
 
 ## Focus
 
