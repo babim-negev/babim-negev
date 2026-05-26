@@ -1,27 +1,40 @@
 <p align="center">
-  <img src="assets/sre-neofetch.svg" alt="Babim Negev - SRE / Platform Engineer neofetch terminal card" />
+  <img src="assets/platform-terminal.gif" alt="Animated terminal profile for Babim Negev - SRE / Platform Engineering Owner" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=850&color=22C55E&center=true&vCenter=true&width=760&lines=%24+kubectl+get+reliability;%24+terraform+plan+--less-drama;%24+promql+up+%3D%3D+1;%24+alerts+--only-actionable" alt="Typing animation with SRE terminal commands" />
-</p>
+# Babim Negev
 
-```bash
-$ kubectl get reliability
-NAME                  STATUS   SIGNALS      AUTOMATION
-platform/production   Ready    observable   enabled
+**SRE / Platform Engineering Owner**
+
+I own reliability, observability, automation, and platform engineering practices that help systems stay boring in production.
+
+Owner of [Bash Forces](https://bash-forces.ru/) - a platform for people who enjoy Linux, Bash, automation, and engineering challenges.
+
+```yaml
+apiVersion: platform.babim.dev/v1
+kind: Engineer
+metadata:
+  name: babim-negev
+  role: SRE / Platform Engineering Owner
+spec:
+  owns:
+    - production reliability
+    - observability standards
+    - infrastructure automation
+    - CI/CD and release safety
+    - incident response practices
+  builds:
+    - Bash Forces
+  philosophy: "Build calm systems and useful tools."
 ```
-
-## About
-
-I build platforms that make production boring: reliable infrastructure, useful observability, and automation that removes repetitive operational work.
 
 ## Focus
 
-- Building and operating reliable infrastructure
-- Automating boring operational work
-- Improving observability and incident response
-- Shipping platform tooling for developers
+- **Homelab**: Linux, self-hosting, networking, automation, experiments
+- **Platform Engineering**: Kubernetes, Linux, containers, CI/CD, developer workflows
+- **Reliability & Operations**: SLO thinking, incident response, actionable alerts, runbooks
+- **Observability**: Prometheus, Grafana, metrics, logs, traces, production feedback loops
+- **Automation**: Terraform, Ansible, Bash, Python, repeatable infrastructure
 
 ## Stack
 
@@ -37,6 +50,13 @@ I build platforms that make production boring: reliable infrastructure, useful o
   <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
   <img src="https://img.shields.io/badge/Bash-111827?style=for-the-badge&logo=gnubash&logoColor=4EAA25" alt="Bash" />
 </p>
+
+## Operating Principles
+
+- Build reliable platforms, not fragile scripts
+- Automate toil and keep manual operations intentional
+- Make systems observable before they fail
+- Prefer clear ownership, boring deploys, and fast recovery
 
 ## Stats
 
