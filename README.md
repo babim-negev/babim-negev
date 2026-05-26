@@ -6,35 +6,17 @@
 
 **SRE / Platform Engineering Owner**
 
-I own reliability, observability, automation, and platform engineering practices that help systems stay boring in production.
+I build calm systems, useful tools, and platform workflows that make infrastructure easier to run.
 
 Owner of [Bash Forces](https://bash-forces.ru/) - a platform for people who enjoy Linux, Bash, automation, and engineering challenges.
-
-```yaml
-apiVersion: platform.babim.dev/v1
-kind: Engineer
-metadata:
-  name: babim-negev
-  role: SRE / Platform Engineering Owner
-spec:
-  owns:
-    - production reliability
-    - observability standards
-    - infrastructure automation
-    - CI/CD and release safety
-    - incident response practices
-  builds:
-    - Bash Forces
-  philosophy: "Build calm systems and useful tools."
-```
 
 ## Focus
 
 - **Homelab**: Linux, self-hosting, networking, automation, experiments
-- **Platform Engineering**: Kubernetes, Linux, containers, CI/CD, developer workflows
-- **Reliability & Operations**: SLO thinking, incident response, actionable alerts, runbooks
-- **Observability**: Prometheus, Grafana, metrics, logs, traces, production feedback loops
-- **Automation**: Terraform, Ansible, Bash, Python, repeatable infrastructure
+- **Platform Engineering**: Kubernetes, containers, CI/CD, developer workflows
+- **Operations**: incident response, actionable alerts, runbooks
+- **Observability**: Prometheus, Grafana, logs, traces
+- **Tooling**: Terraform, Ansible, Bash, Python
 
 ## Stack
 
@@ -50,13 +32,6 @@ spec:
   <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
   <img src="https://img.shields.io/badge/Bash-111827?style=for-the-badge&logo=gnubash&logoColor=4EAA25" alt="Bash" />
 </p>
-
-## Operating Principles
-
-- Build reliable platforms, not fragile scripts
-- Automate toil and keep manual operations intentional
-- Make systems observable before they fail
-- Prefer clear ownership, boring deploys, and fast recovery
 
 ## Stats
 
