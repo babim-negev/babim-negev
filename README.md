@@ -2,6 +2,8 @@
   <img src="assets/platform-terminal.gif" alt="Animated terminal profile for Babim Negev - SRE / Platform Engineering Owner" />
 </p>
 
+[Bash Forces](https://bash-forces.ru/)
+
 ## Stack
 
 <p>
