@@ -2,22 +2,6 @@
   <img src="assets/platform-terminal.gif" alt="Animated terminal profile for Babim Negev - SRE / Platform Engineering Owner" />
 </p>
 
-# Babim Negev
-
-**SRE / Platform Engineering Owner**
-
-I build calm systems, useful tools, and platform workflows that make infrastructure easier to run.
-
-Owner of [Bash Forces](https://bash-forces.ru/) - a platform for people who enjoy Linux, Bash, automation, and engineering challenges.
-
-## Focus
-
-- **Homelab**: Linux, self-hosting, networking, automation, experiments
-- **Platform Engineering**: Kubernetes, containers, CI/CD, developer workflows
-- **Operations**: incident response, actionable alerts, runbooks
-- **Observability**: Prometheus, Grafana, logs, traces
-- **Tooling**: Terraform, Ansible, Bash, Python
-
 ## Stack
 
 <p>
